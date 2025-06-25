@@ -1,0 +1,42 @@
+
+spring:
+  application:
+    name: api-gateway
+
+  cloud:
+    loadbalancer:
+      rule: random
+
+    gateway:
+      routes:
+        - id: user-service
+          uri: http://localhost:8081/
+          predicates:
+            - Path=/user-service/**
+
+        - id: vehicle-service
+          uri: http://localhost:8082/
+          predicates:
+            - Path=/vehicle-service/**
+
+        - id: parking-space-service
+          uri: http://localhost:8084/
+          predicates:
+            - Path=/parking-space-service/**
+
+        - id: payment-service
+          uri: http://localhost:8085/
+          predicates:
+            - Path=/payment-service/**
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+jwt:
+  secret: "2D4A614E645267556B58703273357638792F423F4428472B4B6250655368566D"

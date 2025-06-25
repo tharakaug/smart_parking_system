@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/AD2_smart_parking_system-master/userService/pom.xml" />
+        <option value="$PROJECT_DIR$/AD2_smart_parking_system-master/api-gateways/pom.xml" />
+        <option value="$PROJECT_DIR$/AD2_smart_parking_system-master/configServer/pom.xml" />
+        <option value="$PROJECT_DIR$/AD2_smart_parking_system-master/eurekaService/pom.xml" />
+        <option value="$PROJECT_DIR$/AD2_smart_parking_system-master/parkingService/pom.xml" />
+        <option value="$PROJECT_DIR$/AD2_smart_parking_system-master/paymentService/pom.xml" />
+        <option value="$PROJECT_DIR$/AD2_smart_parking_system-master/vehicleService/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
