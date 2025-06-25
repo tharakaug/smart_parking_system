@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "8ca66474-b98c-4dda-aa5e-ca0618455f6f",
+		"_postman_id": "9db77583-ca1f-4e3b-bd2f-da0729567f1a",
 		"name": "smart-parking-management-system",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "40383247"
+		"_exporter_id": "40369243"
 	},
 	"item": [
 		{
@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"u_id\": 0,\r\n    \"name\": \"Amanda\",\r\n    \"contact\": \"0771234567\",\r\n    \"address\": \"Kalutara\",\r\n    \"email\": \"amanda@example.com\",\r\n    \"role\": \"ADMIN\",\r\n    \"password\": \"admin1234\"\r\n}",
+							"raw": "{\r\n    \"u_id\": 0,\r\n    \"name\": \"Kavindu\",\r\n    \"contact\": \"0760676802\",\r\n    \"address\": \"matara\",\r\n    \"email\": \"kavindutharaka2202gmail.com\",\r\n    \"role\": \"ADMIN\",\r\n    \"password\": \"ijse@123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -71,7 +71,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"admin@example.com\",\r\n    \"password\": \"admin123\"\r\n}",
+							"raw": "{\r\n    \"email\": \"admin@example.com\",\r\n    \"password\": \"ijse@123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -126,7 +126,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"u_id\": 3,\r\n  \"username\": \"amanda\",\r\n  \"email\": \"new_email@example.com\",\r\n  \"role\": \"CLIENT\",\r\n  \"password\": \"abc123\"\r\n}\r\n",
+							"raw": "{\r\n  \"u_id\": 3,\r\n  \"username\": \"kavindu\",\r\n  \"email\": \"kavindu@gmail.com\",\r\n  \"role\": \"CLIENT\",\r\n  \"password\": \"22848\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -163,7 +163,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"licensePlate\": \"CAL-1234\",\r\n    \"type\": \"Car\",\r\n    \"status\": \"PARKED\",\r\n    \"userId\": 3,\r\n    \"entryTime\": \"2025-06-19T11:30:00\",\r\n    \"exitTime\": \"2025-06-19T12:45:00\"\r\n  }",
+							"raw": "{\r\n    \"licensePlate\": \"CAX-5678\",\r\n    \"type\": \"Car\",\r\n    \"status\": \"PARKED\",\r\n    \"userId\": 3,\r\n    \"entryTime\": \"2025-06-11T10:30:00\",\r\n    \"exitTime\": \"2025-06-11T12:40:00\"\r\n  }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -213,7 +213,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 1,\r\n  \"licensePlate\": \"ABC-1234\",\r\n  \"type\": \"Car\",\r\n  \"status\": \"WAITING\",\r\n  \"userId\": 2,\r\n  \"entryTime\": \"2025-06-19T10:30:00\",\r\n  \"exitTime\": \"2025-06-19T12:45:00\"\r\n}\r\n",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"licensePlate\": \"CAV-5678\",\r\n  \"type\": \"Car\",\r\n  \"status\": \"WAITING\",\r\n  \"userId\": 2,\r\n  \"entryTime\": \"2025-06-11T08:30:00\",\r\n  \"exitTime\": \"2025-06-11T10:45:00\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -293,7 +293,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"numberPlate\": \"CAX-1234\",\r\n  \"entryTime\": \"2025-06-22T08:30:00\",\r\n  \"exitTime\": \"2025-06-22T10:00:00\"\r\n}\r\n",
+									"raw": "{\r\n  \"numberPlate\": \"CAB-9999\",\r\n  \"entryTime\": \"2025-06-20T06:30:00\",\r\n  \"exitTime\": \"2025-06-20T12:00:00\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -348,7 +348,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n  \"numberPlate\": \"CAX-1234\",\r\n  \"entryTime\": \"2025-06-22T08:30:00\",\r\n  \"exitTime\": \"2025-06-22T10:30:00\"\r\n}\r\n",
+									"raw": "{\r\n  \"numberPlate\": \"CCX-0044\",\r\n  \"entryTime\": \"2025-06-09T09:30:00\",\r\n  \"exitTime\": \"2025-06-09T10:20:00\"\r\n}\r\n",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -383,7 +383,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"location\": \"Galle Fort\",\r\n    \"ownerId\": 3,\r\n    \"status\": \"AVAILABLE\"\r\n}",
+							"raw": "{\r\n    \"location\": \"Matara\",\r\n    \"ownerId\": 3,\r\n    \"status\": \"AVAILABLE\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
